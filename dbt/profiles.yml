@@ -1,0 +1,22 @@
+biofeedback_signal_lab:
+  target: "{{ env_var('DBT_TARGET', 'local_duckdb') }}"
+  outputs:
+    local_duckdb:
+      type: duckdb
+      path: "outputs/warehouse/biofeedback_signal_lab.duckdb"
+      schema: main
+      threads: 4
+    snowflake:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD', none) }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE') }}"
+      schema: "{{ env_var('SNOWFLAKE_SCHEMA', 'BIOFEEDBACK_SIGNAL_LAB') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', '') }}"
+      authenticator: "{{ 'SNOWFLAKE_JWT' if env_var('SNOWFLAKE_AUTHENTICATOR', '') | lower == 'snowflake_jwt' else env_var('SNOWFLAKE_AUTHENTICATOR', '') }}"
+      private_key_path: "{{ env_var('SNOWFLAKE_PRIVATE_KEY_PATH', '') }}"
+      private_key_passphrase: "{{ env_var('SNOWFLAKE_PRIVATE_KEY_PASSPHRASE', '') }}"
+      threads: 4
+      client_session_keep_alive: false

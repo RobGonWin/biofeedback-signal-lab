@@ -1,0 +1,85 @@
+annotation_id,dataset_name,subject_id,session_id,session_name,source_file_name,label_name,label_value_text,label_value_numeric,label_value_boolean
+S1_midterm_1_IBI.csv_ibi_count,wearable_exam_stress,S1,1,midterm_1,IBI.csv,ibi_interval_count,,300.0,
+S1_midterm_1_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S1,1,midterm_1,IBI.csv,ibi_mean_seconds,,0.50731484,
+S1_midterm_1_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S1,1,midterm_1,IBI.csv,ibi_times_are_monotonic,,,True
+S1_midterm_1_info.txt_info_present,wearable_exam_stress,S1,1,midterm_1,info.txt,info_present,,,True
+S1_midterm_1_info.txt_info_excerpt,wearable_exam_stress,S1,1,midterm_1,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S1_midterm_1_tags.csv_tag_count,wearable_exam_stress,S1,1,midterm_1,tags.csv,tag_event_count,,2.0,
+S1_midterm_1_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S1,1,midterm_1,tags.csv,tag_times_are_monotonic,,,True
+S1_midterm_2_IBI.csv_ibi_count,wearable_exam_stress,S1,2,midterm_2,IBI.csv,ibi_interval_count,,1290.0,
+S1_midterm_2_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S1,2,midterm_2,IBI.csv,ibi_mean_seconds,,0.5153094224806202,
+S1_midterm_2_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S1,2,midterm_2,IBI.csv,ibi_times_are_monotonic,,,True
+S1_midterm_2_info.txt_info_present,wearable_exam_stress,S1,2,midterm_2,info.txt,info_present,,,True
+S1_midterm_2_info.txt_info_excerpt,wearable_exam_stress,S1,2,midterm_2,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S1_midterm_2_tags.csv_tag_count,wearable_exam_stress,S1,2,midterm_2,tags.csv,tag_event_count,,0.0,
+S1_midterm_2_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S1,2,midterm_2,tags.csv,tag_times_are_monotonic,,,True
+S2_midterm_1_IBI.csv_ibi_count,wearable_exam_stress,S2,1,midterm_1,IBI.csv,ibi_interval_count,,600.0,
+S2_midterm_1_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S2,1,midterm_1,IBI.csv,ibi_mean_seconds,,0.5332014416666667,
+S2_midterm_1_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S2,1,midterm_1,IBI.csv,ibi_times_are_monotonic,,,True
+S2_midterm_1_info.txt_info_present,wearable_exam_stress,S2,1,midterm_1,info.txt,info_present,,,True
+S2_midterm_1_info.txt_info_excerpt,wearable_exam_stress,S2,1,midterm_1,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S2_midterm_1_tags.csv_tag_count,wearable_exam_stress,S2,1,midterm_1,tags.csv,tag_event_count,,2.0,
+S2_midterm_1_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S2,1,midterm_1,tags.csv,tag_times_are_monotonic,,,True
+S2_midterm_2_IBI.csv_ibi_count,wearable_exam_stress,S2,2,midterm_2,IBI.csv,ibi_interval_count,,2108.0,
+S2_midterm_2_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S2,2,midterm_2,IBI.csv,ibi_mean_seconds,,0.6120491494307401,
+S2_midterm_2_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S2,2,midterm_2,IBI.csv,ibi_times_are_monotonic,,,True
+S2_midterm_2_info.txt_info_present,wearable_exam_stress,S2,2,midterm_2,info.txt,info_present,,,True
+S2_midterm_2_info.txt_info_excerpt,wearable_exam_stress,S2,2,midterm_2,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S2_midterm_2_tags.csv_tag_count,wearable_exam_stress,S2,2,midterm_2,tags.csv,tag_event_count,,2.0,
+S2_midterm_2_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S2,2,midterm_2,tags.csv,tag_times_are_monotonic,,,True
+S3_midterm_1_IBI.csv_ibi_count,wearable_exam_stress,S3,1,midterm_1,IBI.csv,ibi_interval_count,,480.0,
+S3_midterm_1_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S3,1,midterm_1,IBI.csv,ibi_mean_seconds,,0.5545175270833334,
+S3_midterm_1_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S3,1,midterm_1,IBI.csv,ibi_times_are_monotonic,,,True
+S3_midterm_1_info.txt_info_present,wearable_exam_stress,S3,1,midterm_1,info.txt,info_present,,,True
+S3_midterm_1_info.txt_info_excerpt,wearable_exam_stress,S3,1,midterm_1,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S3_midterm_1_tags.csv_tag_count,wearable_exam_stress,S3,1,midterm_1,tags.csv,tag_event_count,,2.0,
+S3_midterm_1_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S3,1,midterm_1,tags.csv,tag_times_are_monotonic,,,True
+S3_midterm_2_IBI.csv_ibi_count,wearable_exam_stress,S3,2,midterm_2,IBI.csv,ibi_interval_count,,510.0,
+S3_midterm_2_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S3,2,midterm_2,IBI.csv,ibi_mean_seconds,,0.6360584862745098,
+S3_midterm_2_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S3,2,midterm_2,IBI.csv,ibi_times_are_monotonic,,,True
+S3_midterm_2_info.txt_info_present,wearable_exam_stress,S3,2,midterm_2,info.txt,info_present,,,True
+S3_midterm_2_info.txt_info_excerpt,wearable_exam_stress,S3,2,midterm_2,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S3_midterm_2_tags.csv_tag_count,wearable_exam_stress,S3,2,midterm_2,tags.csv,tag_event_count,,0.0,
+S3_midterm_2_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S3,2,midterm_2,tags.csv,tag_times_are_monotonic,,,True
+S4_midterm_1_IBI.csv_ibi_count,wearable_exam_stress,S4,1,midterm_1,IBI.csv,ibi_interval_count,,210.0,
+S4_midterm_1_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S4,1,midterm_1,IBI.csv,ibi_mean_seconds,,0.4822393238095238,
+S4_midterm_1_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S4,1,midterm_1,IBI.csv,ibi_times_are_monotonic,,,True
+S4_midterm_1_info.txt_info_present,wearable_exam_stress,S4,1,midterm_1,info.txt,info_present,,,True
+S4_midterm_1_info.txt_info_excerpt,wearable_exam_stress,S4,1,midterm_1,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S4_midterm_1_tags.csv_tag_count,wearable_exam_stress,S4,1,midterm_1,tags.csv,tag_event_count,,3.0,
+S4_midterm_1_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S4,1,midterm_1,tags.csv,tag_times_are_monotonic,,,True
+S4_midterm_2_IBI.csv_ibi_count,wearable_exam_stress,S4,2,midterm_2,IBI.csv,ibi_interval_count,,450.0,
+S4_midterm_2_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S4,2,midterm_2,IBI.csv,ibi_mean_seconds,,0.6281884311111111,
+S4_midterm_2_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S4,2,midterm_2,IBI.csv,ibi_times_are_monotonic,,,True
+S4_midterm_2_info.txt_info_present,wearable_exam_stress,S4,2,midterm_2,info.txt,info_present,,,True
+S4_midterm_2_info.txt_info_excerpt,wearable_exam_stress,S4,2,midterm_2,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S4_midterm_2_tags.csv_tag_count,wearable_exam_stress,S4,2,midterm_2,tags.csv,tag_event_count,,0.0,
+S4_midterm_2_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S4,2,midterm_2,tags.csv,tag_times_are_monotonic,,,True
+S5_midterm_1_IBI.csv_ibi_count,wearable_exam_stress,S5,1,midterm_1,IBI.csv,ibi_interval_count,,240.0,
+S5_midterm_1_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S5,1,midterm_1,IBI.csv,ibi_mean_seconds,,0.5082263541666666,
+S5_midterm_1_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S5,1,midterm_1,IBI.csv,ibi_times_are_monotonic,,,True
+S5_midterm_1_info.txt_info_present,wearable_exam_stress,S5,1,midterm_1,info.txt,info_present,,,True
+S5_midterm_1_info.txt_info_excerpt,wearable_exam_stress,S5,1,midterm_1,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S5_midterm_1_tags.csv_tag_count,wearable_exam_stress,S5,1,midterm_1,tags.csv,tag_event_count,,1.0,
+S5_midterm_1_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S5,1,midterm_1,tags.csv,tag_times_are_monotonic,,,True
+S5_midterm_2_IBI.csv_ibi_count,wearable_exam_stress,S5,2,midterm_2,IBI.csv,ibi_interval_count,,4096.0,
+S5_midterm_2_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S5,2,midterm_2,IBI.csv,ibi_mean_seconds,,0.5469686625976562,
+S5_midterm_2_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S5,2,midterm_2,IBI.csv,ibi_times_are_monotonic,,,True
+S5_midterm_2_info.txt_info_present,wearable_exam_stress,S5,2,midterm_2,info.txt,info_present,,,True
+S5_midterm_2_info.txt_info_excerpt,wearable_exam_stress,S5,2,midterm_2,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S5_midterm_2_tags.csv_tag_count,wearable_exam_stress,S5,2,midterm_2,tags.csv,tag_event_count,,0.0,
+S5_midterm_2_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S5,2,midterm_2,tags.csv,tag_times_are_monotonic,,,True
+S6_midterm_1_IBI.csv_ibi_count,wearable_exam_stress,S6,1,midterm_1,IBI.csv,ibi_interval_count,,480.0,
+S6_midterm_1_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S6,1,midterm_1,IBI.csv,ibi_mean_seconds,,0.5294512645833334,
+S6_midterm_1_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S6,1,midterm_1,IBI.csv,ibi_times_are_monotonic,,,True
+S6_midterm_1_info.txt_info_present,wearable_exam_stress,S6,1,midterm_1,info.txt,info_present,,,True
+S6_midterm_1_info.txt_info_excerpt,wearable_exam_stress,S6,1,midterm_1,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S6_midterm_1_tags.csv_tag_count,wearable_exam_stress,S6,1,midterm_1,tags.csv,tag_event_count,,2.0,
+S6_midterm_1_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S6,1,midterm_1,tags.csv,tag_times_are_monotonic,,,True
+S6_midterm_2_IBI.csv_ibi_count,wearable_exam_stress,S6,2,midterm_2,IBI.csv,ibi_interval_count,,1560.0,
+S6_midterm_2_IBI.csv_ibi_mean_seconds,wearable_exam_stress,S6,2,midterm_2,IBI.csv,ibi_mean_seconds,,0.7351898435897435,
+S6_midterm_2_IBI.csv_ibi_times_are_monotonic,wearable_exam_stress,S6,2,midterm_2,IBI.csv,ibi_times_are_monotonic,,,True
+S6_midterm_2_info.txt_info_present,wearable_exam_stress,S6,2,midterm_2,info.txt,info_present,,,True
+S6_midterm_2_info.txt_info_excerpt,wearable_exam_stress,S6,2,midterm_2,info.txt,info_excerpt,.csv files in this archive are in the following format: The first row is the initial time of the session expressed as unix timestamp in UTC. The second row is the sample rate expressed in Hz.,,
+S6_midterm_2_tags.csv_tag_count,wearable_exam_stress,S6,2,midterm_2,tags.csv,tag_event_count,,0.0,
+S6_midterm_2_tags.csv_tag_times_are_monotonic,wearable_exam_stress,S6,2,midterm_2,tags.csv,tag_times_are_monotonic,,,True

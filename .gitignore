@@ -1,0 +1,31 @@
+# Python / Environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+npm-debug.log*
+
+# dbt
+target/
+dbt_packages/
+logs/
+outputs/warehouse/
+outputs/manifests/
+dbt/.user.yml
+
+# Mac/Windows System Files
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vs/
+*.code-workspace
+
+# Security & Credentials
+.env

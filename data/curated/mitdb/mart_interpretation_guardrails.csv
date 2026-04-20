@@ -1,0 +1,5 @@
+dataset_name,guardrail_id,what_features_may_suggest,what_features_do_not_prove
+mitdb,1,waveform quality differences across records and leads,clinical diagnosis
+mitdb,2,relative lead-level variability changes across fixed windows,definitive rhythm interpretation without specialist review
+mitdb,3,annotation density differences across records,treatment need
+mitdb,4,records that may deserve closer waveform or label review,medical certainty from summary metrics alone

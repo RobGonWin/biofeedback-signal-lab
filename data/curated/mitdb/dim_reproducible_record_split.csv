@@ -1,0 +1,11 @@
+dataset_name,record_id,subject_id,session_id,session_name,signal_channel,split_seed,split_bucket
+mitdb,1,100,0,,mlii,mitdb_phase1_seed_42,train
+mitdb,2,100,0,,v5,mitdb_phase1_seed_42,validation
+mitdb,3,101,0,,mlii,mitdb_phase1_seed_42,train
+mitdb,4,101,0,,v1,mitdb_phase1_seed_42,train
+mitdb,5,102,0,,v5,mitdb_phase1_seed_42,train
+mitdb,6,102,0,,v2,mitdb_phase1_seed_42,train
+mitdb,7,103,0,,mlii,mitdb_phase1_seed_42,train
+mitdb,8,103,0,,v2,mitdb_phase1_seed_42,train
+mitdb,9,104,0,,v5,mitdb_phase1_seed_42,train
+mitdb,10,104,0,,v2,mitdb_phase1_seed_42,train

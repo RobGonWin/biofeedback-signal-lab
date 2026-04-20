@@ -1,0 +1,192 @@
+default_dataset_name: wearable_exam_stress
+
+datasets:
+  wearable_exam_stress:
+    dataset:
+      dataset_name: wearable_exam_stress
+      version: 1.0.0
+      dataset_page_url: https://physionet.org/content/wearable-exam-stress/1.0.0/
+      file_listing_url: https://physionet.org/files/wearable-exam-stress/1.0.0/
+      data_listing_url: https://physionet.org/files/wearable-exam-stress/1.0.0/data/
+      zip_url: https://physionet.org/content/wearable-exam-stress/get-zip/1.0.0/
+      parser_type: wearable_exam_stress
+
+    bounded_pull:
+      max_single_file_mb: 250
+      max_total_pull_mb: 250
+      selected_subject_ids:
+        - S1
+        - S2
+        - S3
+        - S4
+        - S5
+        - S6
+      selected_session_names:
+        - midterm_1
+        - midterm_2
+      selected_record_ids: []
+      required_signal_files:
+        - ACC.csv
+        - BVP.csv
+        - EDA.csv
+        - HR.csv
+        - IBI.csv
+        - TEMP.csv
+        - info.txt
+        - tags.csv
+      include_metadata_files:
+        - LICENSE.txt
+        - SHA256SUMS.txt
+        - StudentGrades.txt
+        - readme.md
+      required_record_suffixes: []
+      required_annotation_suffixes: []
+      ignore_file_suffixes: []
+      metadata_index_file: ""
+      prefer_file_listing_over_zip: true
+
+    windowing:
+      window_seconds: 60
+      min_window_coverage_ratio: 0.8
+      higher_relative_variability_quantile: 0.75
+      high_motion_quantile: 0.75
+
+    reproducibility:
+      random_seed: 42
+      split_seed: wearable_exam_stress_phase1_seed_42
+      snapshot_date_utc: "2026-04-14"
+
+    paths:
+      raw_root_directory: data/raw/wearable_exam_stress
+      bronze_manifest_csv: data/bronze/wearable_exam_stress/raw_metadata_manifest.csv
+      bronze_manifest_parquet: data/bronze/wearable_exam_stress/raw_metadata_manifest.parquet
+      preflight_manifest_json: outputs/manifests/head_preflight_manifest.json
+      staging_directory: data/staging/wearable_exam_stress
+      curated_directory: data/curated/wearable_exam_stress
+      warehouse_directory: outputs/warehouse
+      warehouse_database_path: outputs/warehouse/biofeedback_signal_lab.duckdb
+
+  ludb:
+    dataset:
+      dataset_name: ludb
+      version: 1.0.1
+      dataset_page_url: https://physionet.org/content/ludb/1.0.1/
+      file_listing_url: https://physionet.org/files/ludb/1.0.1/
+      data_listing_url: https://physionet.org/files/ludb/1.0.1/data/
+      zip_url: https://physionet.org/content/ludb/get-zip/1.0.1/
+      parser_type: wfdb_ecg
+
+    bounded_pull:
+      max_single_file_mb: 250
+      max_total_pull_mb: 250
+      selected_subject_ids: []
+      selected_session_names: []
+      selected_record_ids:
+        - "1"
+        - "2"
+        - "3"
+        - "4"
+        - "5"
+      required_signal_files: []
+      include_metadata_files:
+        - ANNOTATORS
+        - LICENSE.txt
+        - README
+        - RECORDS
+        - SHA256SUMS.txt
+        - ludb.csv
+      required_record_suffixes:
+        - .dat
+        - .hea
+      required_annotation_suffixes:
+        - .i
+        - .ii
+        - .iii
+        - .avr
+        - .avl
+        - .avf
+        - .v1
+        - .v2
+        - .v3
+        - .v4
+        - .v5
+        - .v6
+      ignore_file_suffixes: []
+      metadata_index_file: RECORDS
+      prefer_file_listing_over_zip: true
+
+    windowing:
+      window_seconds: 10
+      min_window_coverage_ratio: 0.95
+      higher_relative_variability_quantile: 0.75
+      high_motion_quantile: 0.75
+
+    reproducibility:
+      random_seed: 42
+      split_seed: ludb_phase1_seed_42
+      snapshot_date_utc: "2026-04-14"
+
+    paths:
+      raw_root_directory: data/raw/ludb
+      bronze_manifest_csv: data/bronze/ludb/raw_metadata_manifest.csv
+      bronze_manifest_parquet: data/bronze/ludb/raw_metadata_manifest.parquet
+      preflight_manifest_json: outputs/manifests/ludb_head_preflight_manifest.json
+      staging_directory: data/staging/ludb
+      curated_directory: data/curated/ludb
+      warehouse_directory: outputs/warehouse
+      warehouse_database_path: outputs/warehouse/biofeedback_signal_lab.duckdb
+
+  mitdb:
+    dataset:
+      dataset_name: mitdb
+      version: 1.0.0
+      dataset_page_url: https://physionet.org/content/mitdb/1.0.0/
+      file_listing_url: https://physionet.org/files/mitdb/1.0.0/
+      data_listing_url: https://physionet.org/files/mitdb/1.0.0/
+      zip_url: https://physionet.org/content/mitdb/get-zip/1.0.0/
+      parser_type: wfdb_ecg
+
+    bounded_pull:
+      max_single_file_mb: 250
+      max_total_pull_mb: 250
+      selected_subject_ids: []
+      selected_session_names: []
+      selected_record_ids:
+        - "100"
+        - "101"
+        - "102"
+        - "103"
+        - "104"
+      required_signal_files: []
+      include_metadata_files: []
+      required_record_suffixes:
+        - .dat
+        - .hea
+      required_annotation_suffixes:
+        - .atr
+      ignore_file_suffixes:
+        - .xws
+        - .at_
+      metadata_index_file: ""
+      prefer_file_listing_over_zip: true
+
+    windowing:
+      window_seconds: 30
+      min_window_coverage_ratio: 0.95
+      higher_relative_variability_quantile: 0.75
+      high_motion_quantile: 0.75
+
+    reproducibility:
+      random_seed: 42
+      split_seed: mitdb_phase1_seed_42
+      snapshot_date_utc: "2026-04-14"
+
+    paths:
+      raw_root_directory: data/raw/mitdb
+      bronze_manifest_csv: data/bronze/mitdb/raw_metadata_manifest.csv
+      bronze_manifest_parquet: data/bronze/mitdb/raw_metadata_manifest.parquet
+      preflight_manifest_json: outputs/manifests/mitdb_head_preflight_manifest.json
+      staging_directory: data/staging/mitdb
+      curated_directory: data/curated/mitdb
+      warehouse_directory: outputs/warehouse
+      warehouse_database_path: outputs/warehouse/biofeedback_signal_lab.duckdb

@@ -1,0 +1,5 @@
+dataset_name,guardrail_id,what_features_may_suggest,what_features_do_not_prove
+wearable_exam_stress,1,capture consistency differences across sessions and channels,clinical diagnosis
+wearable_exam_stress,2,relative variability changes across fixed windows,cognitive state certainty
+wearable_exam_stress,3,motion-heavy periods when accelerometer magnitude variability is elevated,medical treatment need
+wearable_exam_stress,4,records that may deserve closer data-quality review,stress level as a definitive outcome

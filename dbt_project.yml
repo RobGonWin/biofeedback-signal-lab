@@ -1,0 +1,22 @@
+name: biofeedback_signal_lab
+version: "1.0.0"
+config-version: 2
+
+profile: biofeedback_signal_lab
+
+model-paths:
+  - models
+
+target-path: target
+clean-targets:
+  - target
+  - dbt_packages
+
+models:
+  biofeedback_signal_lab:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: view
+    combined:
+      +materialized: view

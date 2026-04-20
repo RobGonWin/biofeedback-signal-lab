@@ -1,0 +1,15 @@
+[biofeedback_signal_lab]
+account = "your_org-your_account"
+user = "your_username"
+warehouse = "your_warehouse"
+database = "your_database"
+schema = "BIOFEEDBACK_SIGNAL_LAB"
+# role = "your_role"
+# password = "your_password"
+# authenticator = "snowflake_jwt"
+# private_key_path = "C:/path/to/rsa_key.p8"
+# private_key_file_pwd = "optional_key_passphrase"
+# authenticator = "externalbrowser"
+# authenticator = "username_password_mfa"
+# passcode = "123456"
+# passcode_in_password = true

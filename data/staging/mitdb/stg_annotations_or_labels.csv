@@ -1,0 +1,11 @@
+annotation_id,dataset_name,subject_id,session_id,session_name,source_file_name,label_name,label_value_text,label_value_numeric,label_value_boolean
+mitdb_100_atr_count,mitdb,100,0,,100.atr,atr_annotation_count,,2274.0,
+mitdb_100_atr_symbols,mitdb,100,0,,100.atr,atr_annotation_symbols,"+,A,N,V",,
+mitdb_101_atr_count,mitdb,101,0,,101.atr,atr_annotation_count,,1874.0,
+mitdb_101_atr_symbols,mitdb,101,0,,101.atr,atr_annotation_symbols,"+,A,N,Q,|,~",,
+mitdb_102_atr_count,mitdb,102,0,,102.atr,atr_annotation_count,,2192.0,
+mitdb_102_atr_symbols,mitdb,102,0,,102.atr,atr_annotation_symbols,"+,/,N,V,f",,
+mitdb_103_atr_count,mitdb,103,0,,103.atr,atr_annotation_count,,2091.0,
+mitdb_103_atr_symbols,mitdb,103,0,,103.atr,atr_annotation_symbols,"+,A,N,~",,
+mitdb_104_atr_count,mitdb,104,0,,104.atr,atr_annotation_count,,2311.0,
+mitdb_104_atr_symbols,mitdb,104,0,,104.atr,atr_annotation_symbols,"+,/,N,Q,V,f,~",,

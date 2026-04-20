@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: fct_record_features
+    columns:
+      - name: dataset_name
+        tests:
+          - not_null
+      - name: record_id
+        tests:
+          - not_null
+          - unique
+  - name: fct_window_features
+    columns:
+      - name: dataset_name
+        tests:
+          - not_null
+      - name: window_id
+        tests:
+          - not_null
+          - unique
+  - name: dim_reproducible_record_split
+    columns:
+      - name: split_bucket
+        tests:
+          - not_null
+  - name: mart_interpretation_guardrails
+    columns:
+      - name: dataset_name
+        tests:
+          - not_null
+      - name: guardrail_id
+        tests:
+          - not_null

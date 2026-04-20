@@ -1,0 +1,53 @@
+{
+  "runtime": {
+    "default_query_engine": "duckdb",
+    "default_delivery_target": "local",
+    "allow_optional_cloud_targets": false,
+    "default_dataset_name": "wearable_exam_stress"
+  },
+  "datasets": {
+    "wearable_exam_stress": {
+      "enabled": true,
+      "include_in_combined_views": true
+    },
+    "ludb": {
+      "enabled": true,
+      "include_in_combined_views": true
+    },
+    "mitdb": {
+      "enabled": true,
+      "include_in_combined_views": true
+    }
+  },
+  "local": {
+    "duckdb": {
+      "enabled": true,
+      "warehouse_path": "outputs/warehouse/biofeedback_signal_lab.duckdb"
+    }
+  },
+  "cloud": {
+    "snowflake": {
+      "enabled": false,
+      "dbt_enabled": false,
+      "sync_mode": "manual_curated_outputs",
+      "max_sync_file_size_mb": 250,
+      "max_sync_total_size_mb": 250,
+      "source_directory": "data/curated",
+      "allowed_file_formats": [
+        "csv",
+        "parquet"
+      ],
+      "target_profile_name": "biofeedback_signal_lab",
+      "target_database_env_var": "SNOWFLAKE_DATABASE",
+      "target_schema_env_var": "SNOWFLAKE_SCHEMA",
+      "target_warehouse_env_var": "SNOWFLAKE_WAREHOUSE",
+      "target_role_env_var": "SNOWFLAKE_ROLE"
+    }
+  },
+  "dbt": {
+    "enabled": true,
+    "project_file": "dbt_project.yml",
+    "profiles_dir": "dbt",
+    "target_name": "local_duckdb"
+  }
+}
