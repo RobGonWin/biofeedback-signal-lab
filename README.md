@@ -63,7 +63,7 @@ Please cite the original dataset pages and authors when reusing the raw data or 
 
 Across comparable exam sessions, how do compact physiological and signal-quality features vary by subject, session, and fixed window, and which operational states are observable without making medical or cognitive claims?
 
->> This is intentionally framed as an analytics and data-quality question, not a diagnosis question.
+> This is intentionally framed as an analytics and data-quality question, not a diagnosis question.
 
 ## Decision Supported
 
